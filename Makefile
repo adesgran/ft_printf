@@ -14,6 +14,7 @@ all : $(NAME)
 
 $(NAME) : $(O_FILES)
 	$(AR) $(NAME) $(O_FILES)
+	ranlib $(NAME)
 
 clean :
 	$(RM) $(O_FILES)
