@@ -6,7 +6,7 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 17:37:16 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/14 13:43:56 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/16 13:09:52 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static int	ft_putunsigned(va_list args)
 	i = va_arg(args, unsigned int);
 	res = 0;
 	dec = 1000000000;
-	while (i / dec == 0)
+	while (dec && i / dec == 0)
 		dec /= 10;
 	if (dec == 0)
 	{

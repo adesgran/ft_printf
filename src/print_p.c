@@ -6,7 +6,7 @@
 /*   By: adesgran <adesgran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 17:45:28 by adesgran          #+#    #+#             */
-/*   Updated: 2021/12/14 13:40:30 by adesgran         ###   ########.fr       */
+/*   Updated: 2021/12/16 12:51:56 by adesgran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,8 +47,8 @@ unsigned long int	get_pt(va_list args)
 
 int	print_nil(void)
 {
-	write(1, "(nil)", 5);
-	return (5);
+	write(1, "0x0", 3);
+	return (3);
 }
 
 int	print_p(va_list args)
