@@ -13,7 +13,7 @@ ft_printf project for 42
 
 ## Uses
 
->If you have cloned the repo into your project folder, compile using thooses flags :
+>If you have cloned the repo into your project folder, compile using those flags :
 >```
 > >$ gcc -I ft_printf -lprintf ...
 >```
