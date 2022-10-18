@@ -1,3 +1,5 @@
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+
 # ft_printf
 ft_printf project for 42
 
